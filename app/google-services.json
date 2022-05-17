@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "384069597226",
+    "firebase_url": "https://gastosfirebase-66877-default-rtdb.firebaseio.com",
+    "project_id": "gastosfirebase-66877",
+    "storage_bucket": "gastosfirebase-66877.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384069597226:android:1de0c1d3b1e4589294eb53",
+        "android_client_info": {
+          "package_name": "com.example.fotodemoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384069597226-r5i5drve7njj5ir3b7rrrvigp9dj99p8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2bNu_Dk8BjViztCtTP1m8HsGI4EsTJkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384069597226-r5i5drve7njj5ir3b7rrrvigp9dj99p8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384069597226:android:3ecc59c79903499994eb53",
+        "android_client_info": {
+          "package_name": "edu.itesm.gastos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384069597226-r5i5drve7njj5ir3b7rrrvigp9dj99p8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2bNu_Dk8BjViztCtTP1m8HsGI4EsTJkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384069597226-r5i5drve7njj5ir3b7rrrvigp9dj99p8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -29,7 +29,14 @@ class RegistraUsuarioFragment : Fragment() {
             val password = binding.etPassword.text.toString().trim()
             val passwordSecond = binding.etConfirmPassword.text.toString().trim()
             if (password == passwordSecond) {
-
+                 firebaseAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener{ respuesta->
+                     if( respuesta.isSuccessful){
+                         findNavController().navigate(R.id.action_registraUsuarioFragment_to_loginFragment)
+                     }
+                     else{
+                         Toast.makeText(activity, "Register error", Toast.LENGTH_SHORT).show()
+                     }
+                 }
             }else{
                 Toast.makeText(activity, "passwords are not the same", Toast.LENGTH_LONG).show()
             }
